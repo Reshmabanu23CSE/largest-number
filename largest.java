@@ -11,22 +11,22 @@ class Ideone
 		
 		
 		Scanner s=new Scanner(System.in);
-		System.out.println("enter number :");
 		int a=s.nextInt();
 		int b=s.nextInt();
 		int c=s.nextInt();
+		Integer.parseInt();
 		if(a>b && a>c)
 		
 		{
-			System.out.println("first number largest :");
+			System.out.println(+a);
 		}
 		else if(b>a && b>c)
 		{
-			System.out.println("second number largest :");
+			System.out.println(+b);
 		}
 		else if(c>a && c>b)
 		{
-		System.out.println("third number largest :");	
+		System.out.println(+c);	
 		}
 		else
 		{
